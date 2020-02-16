@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/style.css" type="text/css"/>
+    <title>2020 NFL Honors Ballot</title>
+</head>
+    <body>
+        
+        <div class="container">
+        <a href="/"><img src="../static/NFL.png" alt="NFL" class="logo" /></a>
+        <a href="../submissions">SUBMISSIONS</a>
+        <h1>2020 NFL HONORS BALLOT</h1>
+            <form action="/confirmation" method="POST">
+                <div class="form-group">
+                    <h2>Voter Name:</h2>
+                    <input
+                        type="text"
+                        name="voter"
+                    />
+                </div>
+                <div class="form-group">
+                    <h2>Most Valuable Player:</h2>
+                    <input
+                        type="text"
+                        name="MVP"
+                    />
+                </div>
+                <div class="form-group">
+                    <h2>Offensive Player of the Year:</h2>
+                    <input
+                        type="text"
+                        name="OPOY"
+                    />
+                </div>
+                <div class="form-group">
+                    <h2>Defensive Player of the Year:</h2>
+                    <input
+                        type="text"
+                        name="DPOY"
+                    />
+                </div>
+                <div class="form-group">
+                    <h2>Offensive Rookie of the Year:</h2>
+                    <input
+                        type="text"
+                        name="OROY"
+                    />
+                </div>
+                <div class="form-group">
+                    <h2>Defensive Rookie of the Year:</h2>
+                    <input
+                        type="text"
+                        name="DROY"
+                    />
+                </div>
+                <input type="submit" value="SUBMIT VOTE" class="btn" />
+            </form>
+        </div>
+    </body>
+</html>
